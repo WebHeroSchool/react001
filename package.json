@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodr hello.js",
+    "create": "touch index.js",
+    "delete": "rm -rf index.js"    
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/WebHeroSchool/react001/issues"
   },
-  "homepage": "https://github.com/WebHeroSchool/react001#readme"
+  "homepage": "https://github.com/WebHeroSchool/react001#readme",
+  "dependencies": {
+    "hellojs": "^1.19.4"
+  }
 }
